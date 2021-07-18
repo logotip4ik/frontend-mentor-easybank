@@ -1,0 +1,26 @@
+.landing {
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+
+  &__text {
+    max-width: 37ch;
+  }
+  &__header {
+    font-size: 2.5rem;
+  }
+  &__image {
+    position: absolute;
+    &--pattern {
+      left: 50%;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    &--mobile {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.info {
+  background-color: $neutral-light-grayish-blue;
+
+  .container {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  &__header {
+    font-size: 1.75rem;
+  }
+  &__text {
+    margin-bottom: 3rem;
+    max-width: 60ch;
+  }
+  &__list {
+    gap: 1.1rem;
+    width: 100%;
+
+    .item {
+      max-width: 268px;
+      width: 100%;
+      &__icon {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}
