@@ -4,8 +4,11 @@
   "main": "src/index.html",
   "author": "logotip4ik <bogdankostyuk12@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --dist-dir dist"
+  },
   "devDependencies": {
-    "@parcel/reporter-bundle-analyzer": "^2.0.0-nightly.1694",
     "@parcel/transformer-sass": "^2.0.0-beta.2",
     "cssnano": "^5.0.6",
     "postcss": "^8.3.5",
